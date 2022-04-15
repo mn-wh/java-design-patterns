@@ -77,11 +77,8 @@
     <commons-io.version>2.7</commons-io.version>
     <istack-commons-runtime.version>4.0.1</istack-commons-runtime.version>
     <!-- SonarCloud -->
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <sonar.organization>mn-wh</sonar.organization>
-    <sonar.projectKey>mn-wh_java-design-patterns</sonar.projectKey>
-    <sonar.moduleKey>${project.artifactId}</sonar.moduleKey>
-    <sonar.projectName>Java Design Patterns</sonar.projectName>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
   <modules>
     <module>abstract-factory</module>
